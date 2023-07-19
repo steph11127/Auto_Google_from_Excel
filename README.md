@@ -17,7 +17,7 @@ Use cases: lists that need web searching, such as names, addresses, phone number
 ## Python Code (auto_google_code.py)
 I used Python 3.9
 
-The following adjustments need to be made, according to your file paths and Excel file: 
+**The following adjustments need to be made, according to your file paths and Excel file:** 
 - Update path to Excel document
 	- line 17 
 - Update path to ChromeDriver.exe   
@@ -31,7 +31,7 @@ The following adjustments need to be made, according to your file paths and Exce
 - Adjust the number of seconds between searches (default 3 seconds)
 	- lines 54, 77, 102, 123, 145
 
-The following functions are included: 
+**The following functions are included:** 
 - printfullname(startrow) 
 	- prints the full name of the inputted row (prints in Python, taken from columns 1 and 2 in Excel) 
 - printphone(startrow) 
